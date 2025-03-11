@@ -66,10 +66,12 @@ export default function SpCalculator() {
         <label>판매할 금액</label>
         <div className="inputWrapper">
           <input
-            type="number"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
             value={amount}
             onChange={handleAmountChange}
-            placeholder="금액을 입력하세요"
+            placeholder="Enter amount"
           />
           <span className="unit">SP</span>
         </div>
