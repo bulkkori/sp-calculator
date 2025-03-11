@@ -71,7 +71,7 @@ export default function SpCalculator() {
             pattern="[0-9]*"
             value={amount}
             onChange={handleAmountChange}
-            placeholder="Enter amount"
+            placeholder="금액을 입력하세요"
           />
           <span className="unit">SP</span>
         </div>
